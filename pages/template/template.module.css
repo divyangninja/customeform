@@ -1,0 +1,116 @@
+.templateContainer {
+  margin: 20px;
+}
+
+.templateBox {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+}
+
+.cardTemp {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+  margin: 20px;
+  text-decoration: none;
+}
+
+.cardTemp > div > div {
+  padding-bottom: 16px !important;
+}
+
+#listItm {
+  font-size: large;
+  text-align: start;
+  margin: 10px 0;
+}
+
+.add {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 20px;
+}
+
+.frmField {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.fieldPanel {
+  border-radius: 8px;
+  box-shadow: 0px 0px 7px 0px inset #363636;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.fieldPanel > div {
+  overflow: auto;
+  max-height: 400px;
+}
+
+.iconAdd {
+  cursor: pointer;
+  color: #7c7c7c;
+  font-size: 3rem;
+}
+
+.btnGroup {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.frmTemplate {
+  /* border: 1px solid; */
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  display: flex;
+  justify-content: center;
+  width: 35%;
+  margin: auto;
+}
+
+.formData {
+  padding: 10% 15%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: relative;
+  top: 20px;
+}
+
+.table {
+  margin-top: 2% !important;
+}
+
+.back {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  color: rgb(65, 18, 255);
+  font-weight: 600;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.editBtn {
+  color: #0a5097;
+  zoom: 2;
+}
+
+.deleteBtn {
+  zoom: 1.8;
+  color: rgb(167, 5, 5);
+}
+
+.noFound {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 20px;
+}
+
+.noFound > div {
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+  padding: 1rem 10rem;
+}

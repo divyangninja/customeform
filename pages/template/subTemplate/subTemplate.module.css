@@ -1,0 +1,22 @@
+.fieldCard {
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+  margin: 20px 10px;
+}
+
+.fieldCard > div {
+  padding-bottom: 16px !important;
+}
+
+.addfields {
+  display: flex;
+}
+
+.iconClose {
+  color: rgb(211 0 0 / 75%);
+  cursor: pointer;
+  padding: 4px;
+  position: absolute;
+  right: 0;
+  font-size: 1.3rem;
+}
